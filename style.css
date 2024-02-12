@@ -129,5 +129,9 @@ p {
     align-items: center;
     display: grid;
     justify-items: center;
+    gap: 20px;
+  }
+  .bycycle-image {
+    display: block;
   }
 }
