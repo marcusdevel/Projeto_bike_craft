@@ -22,9 +22,12 @@ img {
   max-width: 100%;
   display: block;
 }
-.bycycle-image {
-  min-width: 400px;
+
+.bicicleta {
+  /* min-width: 400px; */
+  max-width: 100%;
 }
+
 .navigator a {
   background-color: #ffffff;
   padding: 15px 30px;
@@ -115,9 +118,14 @@ p {
   box-sizing: border-box;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 836px) {
   .container {
     grid-template-columns: 1fr;
+  }
+  body {
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
   }
   .gif {
     display: none;
@@ -131,7 +139,13 @@ p {
     justify-items: center;
     gap: 20px;
   }
-  .bycycle-image {
+  .bicicleta {
+    /* min-width: 400px; */
+    max-width: 830px;
+    width: 100%;
     display: block;
+  }
+  .advantages-title {
+    text-align: center;
   }
 }
